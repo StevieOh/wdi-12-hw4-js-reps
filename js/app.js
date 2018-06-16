@@ -8,28 +8,23 @@ console.log("JS")
 // How do we assign an existing variable to a new variable?
   //var.Prop? i think i'm confused by the question.
 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+////////////   Strings.      ////////////
+    // Create a variable called firstVariable.
+//const firstVariable
+    // assign it the value of a string => "Hello World"
+let firstVariable = ("Hello World")
+// change the value of this variable to a number.
+firstVariable = (13)
+// store the value of firstVariable into a new variable called secondVariable
+secondVariable = firstVariable
+// change the value of secondVariable to a string.
+secondVariable = ("Muttbutt Maisie")
+// What is the value of firstVariable?
+console.log(firstVariable);
+// Create a variable called yourName and set it equal to your name as a string.
+let yourName = ("Maisie")
+// Write an expression that takes the string "Hello, my name is " and the variable yourName so that it returns a new string with them concatenated.
+console.log("hello, my name is " + yourName);
 
 
 
@@ -54,3 +49,7 @@ const animal = (maybeCow) => {
 animal("cow");
 //Change your code so that if the variable animal is anything other than a cow, your should print out "Hey! You're not a cow."
 animal("llama")
+animal("pig")
+animal("python")
+animal("cow")
+animal("elephant")
