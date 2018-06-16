@@ -24,12 +24,27 @@ console.log(firstVariable);
 // Create a variable called yourName and set it equal to your name as a string.
 let yourName = ("Maisie")
 // Write an expression that takes the string "Hello, my name is " and the variable yourName so that it returns a new string with them concatenated.
-console.log("hello, my name is " + yourName);
+console.log("Hello, my name is " + yourName);
+
+///////////      Booleans    //////////
+
+// Using the provided variable definitions, replace the blanks with a mathematical or boolean operator that evaluates the expression to true. 👋
+//   const a = 4;
+//   const b = 53;
+//   const c = 57;
+//   const d = 16;
+//   const e = 'Kevin';
+a < b;
+c > d;
+'Name' === 'Name';
+a + b === c;
+a * a === d;
+e === 'Kevin';
+48 == '48';
 
 
 
-
-
+//////      FARM   ////////
 
 
 
