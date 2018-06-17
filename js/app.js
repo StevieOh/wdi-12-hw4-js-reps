@@ -199,45 +199,42 @@ console.log("Easy Does it")
     ////    biggieSmalls
 //Write an if..else statement:
 //console.log little number if the number is entered is less than 100
-const biggieSmalls = (someNumber) =>{
-  if (someNumber < 100){
-  console.log("little number");
-  } else {
-  console.log("big number");
-  }
-}
+// const biggieSmalls = (someNumber) =>{
+//   if (someNumber < 100){
+//   console.log("little number");
+//   } else {
+//   console.log("big number");
+//   }
+// }
 
-biggieSmalls(42);
-biggieSmalls(73);
-biggieSmalls(236)
+// biggieSmalls(42);
+// biggieSmalls(73);
+// biggieSmalls(236)
 
 //console.log("little number") 
 
 //If the number entered is 100 or more, alert big number.
 //console.log("big number") 
 
-  console.log("Monkey in the Middle") 
+  //console.log("Monkey in the Middle") 
 //Write an if...else if...else statement:
-// const monkey = (number) => {
-//   for (let i = 0; i <= 10; i++)
-//     console.log(monkey);
-//   if(number < 5){
-//     console.log("little number");
-//   }else if (number > 10){
-//     console.log("big number");
-//   } else (number > 5 && number < 10){
-//     console.log("monkey");
-//   }
-// }
-// console.log(number(21))
-// console.log(number(3))
-// console.log(number(7))
+const monkey = (someNumber) => {
+  //console.log little number if the number entered is less than 5.
+  if (someNumber < 5){
+      console.log("little number");
+      //If the number entered is more than 10, log big number.
+   } else if (someNumber > 10) {
+     console.log("big number");
+     //Otherwise, console.log "monkey".
+   } else{
+    console.log("monkey") 
+  }
+}
 
-//console.log little number if the number entered is less than 5.
-
-//If the number entered is more than 10, log big number.
-
-//Otherwise, console.log "monkey". 
+monkey(3);
+monkey(7);
+monkey(23)
+ 
 
 
     ////    What's in Your Closet?
@@ -286,9 +283,12 @@ kristynsCloset.splice(5,0,"raybans")
 console.log(kristynsCloset)
 
 // Kristyn spilled coffee on her hat... modify this item to read "stained knit hat" instead of yellow.
+kristynsCloset[4] = "stained kint hat"
+console.log(kristynsCloset)
 
 
 // Put together an outfit for Thom! Using bracket notation, access the first element in Thom's shirts array.
+
 
 // In the same way, access one item from Thom's pants array.
 
