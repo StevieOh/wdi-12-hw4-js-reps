@@ -177,24 +177,126 @@ console.log("Easy Does it")
 
     ////    Mix It Up     ////
 //Given the following array 
-const myArray = [5 ,10 ,500, 20]
+// const myArray = [5 ,10 ,500, 20]
 
-//using the push method, add the string "Egon" to the end of the array.
-myArray.push("Egon")
+// //using the push method, add the string "Egon" to the end of the array.
+// myArray.push("Egon")
 
-//using a method, remove the string from the end of the array.
-myArray.pop("Egon")
+// //using a method, remove the string from the end of the array.
+// myArray.pop("Egon")
 
-//using the unshift method, add the string "Bob Marley" to the beginning of the array
-myArray.unshift("Bob Marley")
+// //using the unshift method, add the string "Bob Marley" to the beginning of the array
+// myArray.unshift("Bob Marley")
 
-//using a different method, remove the string from the beginning of the array
-myArray.splice(0,1)
+// //using a different method, remove the string from the beginning of the array
+// myArray.splice(0,1)
 
-//use the reverse method on this array
-let reverse = myArray.reverse();
-console.log(myArray)
+// //use the reverse method on this array
+// let reverse = myArray.reverse();
+// console.log(myArray)
 
+
+    ////    biggieSmalls
+//Write an if..else statement:
+//console.log little number if the number is entered is less than 100
+const biggieSmalls = (someNumber) =>{
+  if (someNumber < 100){
+  console.log("little number");
+  } else {
+  console.log("big number");
+  }
+}
+
+biggieSmalls(42);
+biggieSmalls(73);
+biggieSmalls(236)
+
+//console.log("little number") 
+
+//If the number entered is 100 or more, alert big number.
+//console.log("big number") 
+
+  console.log("Monkey in the Middle") 
+//Write an if...else if...else statement:
+// const monkey = (number) => {
+//   for (let i = 0; i <= 10; i++)
+//     console.log(monkey);
+//   if(number < 5){
+//     console.log("little number");
+//   }else if (number > 10){
+//     console.log("big number");
+//   } else (number > 5 && number < 10){
+//     console.log("monkey");
+//   }
+// }
+// console.log(number(21))
+// console.log(number(3))
+// console.log(number(7))
+
+//console.log little number if the number entered is less than 5.
+
+//If the number entered is more than 10, log big number.
+
+//Otherwise, console.log "monkey". 
+
+
+    ////    What's in Your Closet?
+// Below, we've given you examples of Kristyn and Thom's closets modeled as data in JavaScript.
+
+const kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "GA hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps"
+];
+
+// Thom's closet is more complicated. Check out this nested data structure!!
+const thomsCloset = [
+  [
+    // These are Thom's shirts
+    "grey button-up",
+    "dark grey button-up",
+    "light blue button-up",
+    "blue button-up",
+  ],[
+    // These are Thom's pants
+    "grey jeans",
+    "jeans",
+    "PJs"
+  ],[
+    // Thom's accessories
+    "wool mittens",
+    "wool scarf",
+    "raybans"
+  ]
+];
+// What's Kristyn wearing today? Using bracket notation to access items in kristynsCloset, log the sentence
+console.log("Kristyn is rocking that " + kristynsCloset[2] + " today!") 
+
+// Kristyn can't find her left shoe. Remove this item from her closet and save it to a variable named kristynShoe.
+kristynShoe = kristynsCloset.splice(0,1)
+console.log(kristynShoe)
+console.log(kristynsCloset)
+
+// Kristyn just bought some sweet shades! Add "raybans" to her closet after "yellow knit hat".
+kristynsCloset.splice(5,0,"raybans")
+console.log(kristynsCloset)
+
+// Kristyn spilled coffee on her hat... modify this item to read "stained knit hat" instead of yellow.
+
+
+// Put together an outfit for Thom! Using bracket notation, access the first element in Thom's shirts array.
+
+// In the same way, access one item from Thom's pants array.
+
+// Access one item from Thom's accessories array.
+
+// Log a sentence about what Thom's wearing. Example: "Thom is looking fierce in a grey button-up, jeans and wool scarf!"
+
+// Get more specific about what kind of PJs Thom's wearing this winter. Modify the name of his PJ pants to Footie Pajamas.
 
 
 
