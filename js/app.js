@@ -34,20 +34,16 @@ console.log("Hello, my name is " + yourName);
 //   const c = 57;
 //   const d = 16;
 //   const e = 'Kevin';
-a < b;
-c > d;
-'Name' === 'Name';
-a + b === c;
-a * a === d;
-e === 'Kevin';
-48 == '48';
-
+// a < b;
+// c > d;
+// 'Name' === 'Name';
+// a + b === c;
+// a * a === d;
+// e === 'Kevin';
+// 48 == '48';
 
 
 //////      FARM   ////////
-
-
-
 
 //Write code that will print out "mooooo" if the variable animal is equal to cow.
 const animal = (maybeCow) => {
@@ -68,3 +64,80 @@ animal("pig")
 animal("python")
 animal("cow")
 animal("elephant")
+
+
+//////      Driver's Ed     //////
+// Write a variable that will hold a person's age.
+const age = (oldEnough) => {
+  console.log(oldEnough)
+  if (oldEnough >= 16){
+    // Write code that will print out "Here are the keys", if the age is 16 years or older.
+    console.log("Here are the keys")      
+// Change your code so that if the age is younger than 16, a message will print "Sorry, you're too young."
+//else ("Sorry, you're too young");
+  } else ("Sorry, you're too young");
+}
+
+age(13)
+age(27)
+age(9)
+age(16)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
