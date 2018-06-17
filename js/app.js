@@ -118,16 +118,20 @@ console.log("JS")
 
 
 console.log("Savings account");        
-//Write code that will save the sum of all the numbers between 1 - 10 to a variable called bank_account.
-// const bank_account = (saveArray) => {
-//   for (let i = 0; i <= 10; i++);
-//   console.log(i)
-// }
+// //Write code that will save the sum of all the numbers between 1 - 10 to a variable called bank_account.
+// let bankAccount = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// let save = bankAccount.reduce(sum) 
 
-//Check your work! Your banck_account should have $55 in it.
+// console.log(save);
+
+ 
+
+//  //Check your work! Your banck_account should have $55 in it.
+// console.log(bankAccount)
+
 
 //You got a bonus! Your pay is now doubled each week. Write code that will save the sum of all the numbers between 1 - 100 multiplied by 2.
-//Check your work! Your banck_account should have $10,100 in it.
+//Check your work! Your bank_account should have $10,100 in it.
 
 console.log("Multiples of 3 and 5")
 //If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
@@ -142,19 +146,35 @@ console.log("Multiples of 3 and 5")
 
 
 
-////    Easy Does it    ////
+console.log("Easy Does it")        
 // Create an array that contains three quotes and store it in a variable called quotes.
 
-////    Random    ////
-//Given the following array const randomThings = [1, 10, "Hello", true]
-const randomThings = [1, 10, "Hello", true]
 
-//how do you access the 1st element in the array?
-console.log(randomThings[0])
-//Change the value of "Hello" to "World".
-randomThings[2] = "World"
-console.log(randomThings)
-//Check the value of the array to make sure it updated the array.
+// ////    Random    ////
+// //Given the following array const randomThings = [1, 10, "Hello", true]
+// const randomThings = [1, 10, "Hello", true]
+
+// //how do you access the 1st element in the array?
+// console.log(randomThings[0])
+// //Change the value of "Hello" to "World".
+// randomThings[2] = "World"
+// console.log(randomThings)
+// //Check the value of the array to make sure it updated the array.
+
+    ////    We've Got Class     ////
+//Given the following array 
+const ourClass = ["Gizmo", "Zoom", "Github", "Slack"]
+
+//What would you write to access the 3rd element of the array?
+console.log(ourClass[2])
+
+//Change the value of "Github" to "Octocat"
+ourClass[2] = "Octocat"
+
+//Add a new element, "Cloud City" to the array.
+ourClass.push("Cloud City")
+console.log(ourClass)
+
 
 
 
