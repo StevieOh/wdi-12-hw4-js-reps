@@ -218,22 +218,22 @@ console.log("Easy Does it")
 
   //console.log("Monkey in the Middle") 
 //Write an if...else if...else statement:
-const monkey = (someNumber) => {
-  //console.log little number if the number entered is less than 5.
-  if (someNumber < 5){
-      console.log("little number");
-      //If the number entered is more than 10, log big number.
-   } else if (someNumber > 10) {
-     console.log("big number");
-     //Otherwise, console.log "monkey".
-   } else{
-    console.log("monkey") 
-  }
-}
+// const monkey = (someNumber) => {
+//   //console.log little number if the number entered is less than 5.
+//   if (someNumber < 5){
+//       console.log("little number");
+//       //If the number entered is more than 10, log big number.
+//    } else if (someNumber > 10) {
+//      console.log("big number");
+//      //Otherwise, console.log "monkey".
+//    } else{
+//     console.log("monkey") 
+//   }
+// }
 
-monkey(3);
-monkey(7);
-monkey(23)
+// monkey(3);
+// monkey(7);
+// monkey(23)
  
 
 
@@ -293,10 +293,14 @@ console.log(kristynsCloset)
 // In the same way, access one item from Thom's pants array.
 
 // Access one item from Thom's accessories array.
+//console.log(thomsCloset[3, 2])
 
 // Log a sentence about what Thom's wearing. Example: "Thom is looking fierce in a grey button-up, jeans and wool scarf!"
 
 // Get more specific about what kind of PJs Thom's wearing this winter. Modify the name of his PJ pants to Footie Pajamas.
+// thomsCloset.splice(2, 1, "Footie Pajamas")
+// console.log(thomsCloset)
+
 
 
 
