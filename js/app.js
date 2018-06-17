@@ -99,6 +99,15 @@ for (let i = 10; i <= 4000; i++)
   if(i % 2 === 0)
 console.log(i)
 
+////    Let's get even    ////
+// Print out the even numbers that are within the range of 1 - 100.
+for(let i = 0; i <= 100; i++)
+  if(i % 2 === 0)
+    console.log(i + " is an even number");
+// Adjust your code to add a message next to the even number that says: "is an even number".
+
+
+
 
 
 
