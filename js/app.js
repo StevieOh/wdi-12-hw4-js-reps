@@ -85,6 +85,24 @@ age(16)
 
 
 
+//////      Just Loop it      //////
+//Write code that will print out all the numbers in the range 0 - 10.
+for (let i = 0; i <= 10; i++)
+console.log(i)
+
+//Write code that will print out all the numbers in the range 10 - 4000.
+for (let i = 10; i <= 4000; i++)
+console.log(i)
+
+//Write code that will print out every other number in the range 10 - 4000.
+for (let i = 10; i <= 4000; i++)
+  if(i % 2 === 0)
+console.log(i)
+
+
+
+
+
 
 
 
