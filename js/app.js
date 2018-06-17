@@ -234,21 +234,35 @@ console.log("Easy Does it")
 // monkey(3);
 // monkey(7);
 // monkey(23)
- 
-
 
     ////    What's in Your Closet?
 // Below, we've given you examples of Kristyn and Thom's closets modeled as data in JavaScript.
 
-const kristynsCloset = [
-  "left shoe",
-  "cowboy boots",
-  "right sock",
-  "GA hoodie",
-  "green pants",
-  "yellow knit hat",
-  "marshmallow peeps"
-];
+// const kristynsCloset = [
+//   "left shoe",
+//   "cowboy boots",
+//   "right sock",
+//   "GA hoodie",
+//   "green pants",
+//   "yellow knit hat",
+//   "marshmallow peeps"
+// ];
+
+// // What's Kristyn wearing today? Using bracket notation to access items in kristynsCloset, log the sentence
+// console.log("Kristyn is rocking that " + kristynsCloset[2] + " today!") 
+
+// // Kristyn can't find her left shoe. Remove this item from her closet and save it to a variable named kristynShoe.
+// kristynShoe = kristynsCloset.splice(0,1)
+// console.log(kristynShoe)
+// console.log(kristynsCloset)
+
+// // Kristyn just bought some sweet shades! Add "raybans" to her closet after "yellow knit hat".
+// kristynsCloset.splice(5,0,"raybans")
+// console.log(kristynsCloset)
+
+// // Kristyn spilled coffee on her hat... modify this item to read "stained knit hat" instead of yellow.
+// kristynsCloset[4] = "stained kint hat"
+// console.log(kristynsCloset)
 
 // Thom's closet is more complicated. Check out this nested data structure!!
 const thomsCloset = [
@@ -270,37 +284,37 @@ const thomsCloset = [
     "raybans"
   ]
 ];
-// What's Kristyn wearing today? Using bracket notation to access items in kristynsCloset, log the sentence
-console.log("Kristyn is rocking that " + kristynsCloset[2] + " today!") 
-
-// Kristyn can't find her left shoe. Remove this item from her closet and save it to a variable named kristynShoe.
-kristynShoe = kristynsCloset.splice(0,1)
-console.log(kristynShoe)
-console.log(kristynsCloset)
-
-// Kristyn just bought some sweet shades! Add "raybans" to her closet after "yellow knit hat".
-kristynsCloset.splice(5,0,"raybans")
-console.log(kristynsCloset)
-
-// Kristyn spilled coffee on her hat... modify this item to read "stained knit hat" instead of yellow.
-kristynsCloset[4] = "stained kint hat"
-console.log(kristynsCloset)
 
 
-// Put together an outfit for Thom! Using bracket notation, access the first element in Thom's shirts array.
+// // Put together an outfit for Thom! Using bracket notation, access the first element in Thom's shirts array.
+console.log(thomsCloset[0][2])
 
 
-// In the same way, access one item from Thom's pants array.
+// // In the same way, access one item from Thom's pants array.
+console.log(thomsCloset[1][1])
 
-// Access one item from Thom's accessories array.
-//console.log(thomsCloset[3, 2])
+// // Access one item from Thom's accessories array.
+console.log(thomsCloset[2][2])
 
 // Log a sentence about what Thom's wearing. Example: "Thom is looking fierce in a grey button-up, jeans and wool scarf!"
+console.log("Thom is looking fierce in a " + thomsCloset[0][2] + ", " +thomsCloset[1][1] + " and " + thomsCloset[2][2]+ "!")
 
 // Get more specific about what kind of PJs Thom's wearing this winter. Modify the name of his PJ pants to Footie Pajamas.
-// thomsCloset.splice(2, 1, "Footie Pajamas")
-// console.log(thomsCloset)
+thomsCloset.splice(2, 1, "Footie Pajamas")
+thomsCloset[1][2] = "Footie Pajamas"
+console.log(thomsCloset)
 
+
+
+
+    // printGreeting
+//Write a function called printGreeting with a parameter name that returns a greeting with the argument interpolated into the greeting.
+// const printGreeting = () => {
+  
+// }
+
+//console.log(printGreeting("Slimer"));
+//=> Hello there, Slimer!
 
 
 
