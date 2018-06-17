@@ -163,19 +163,37 @@ console.log("Easy Does it")
 
     ////    We've Got Class     ////
 //Given the following array 
-const ourClass = ["Gizmo", "Zoom", "Github", "Slack"]
+// const ourClass = ["Gizmo", "Zoom", "Github", "Slack"]
 
-//What would you write to access the 3rd element of the array?
-console.log(ourClass[2])
+// //What would you write to access the 3rd element of the array?
+// console.log(ourClass[2])
 
-//Change the value of "Github" to "Octocat"
-ourClass[2] = "Octocat"
+// //Change the value of "Github" to "Octocat"
+// ourClass[2] = "Octocat"
 
-//Add a new element, "Cloud City" to the array.
-ourClass.push("Cloud City")
-console.log(ourClass)
+// //Add a new element, "Cloud City" to the array.
+// ourClass.push("Cloud City")
+// console.log(ourClass)
 
+    ////    Mix It Up     ////
+//Given the following array 
+const myArray = [5 ,10 ,500, 20]
 
+//using the push method, add the string "Egon" to the end of the array.
+myArray.push("Egon")
+
+//using a method, remove the string from the end of the array.
+myArray.pop("Egon")
+
+//using the unshift method, add the string "Bob Marley" to the beginning of the array
+myArray.unshift("Bob Marley")
+
+//using a different method, remove the string from the beginning of the array
+myArray.splice(0,1)
+
+//use the reverse method on this array
+let reverse = myArray.reverse();
+console.log(myArray)
 
 
 
