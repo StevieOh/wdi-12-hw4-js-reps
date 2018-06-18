@@ -119,19 +119,21 @@ console.log("JS")
 
 console.log("Savings account");        
 // //Write code that will save the sum of all the numbers between 1 - 10 to a variable called bank_account.
-// let bankAccount = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-// let save = bankAccount.reduce(sum) 
-
-// console.log(save);
-
- 
-
+let bankArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let bankAccount = 0;
+for (let i = 0; i < bankArray.length; i++) {
+  bankAccount += bankArray[i];
+}
 //  //Check your work! Your banck_account should have $55 in it.
-// console.log(bankAccount)
-
+ 
 
 //You got a bonus! Your pay is now doubled each week. Write code that will save the sum of all the numbers between 1 - 100 multiplied by 2.
 //Check your work! Your bank_account should have $10,100 in it.
+let bankArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let bankAccount = 0;
+for (let i = 0; i <= 100; i++) {
+  bankAccount += (i * 2);
+}console.log(bankAccount)
 
 console.log("Multiples of 3 and 5")
 //If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
@@ -337,25 +339,34 @@ console.log("Multiples of 3 and 5")
 //Write a function called calculate.
 //This function should take three arguments, two numbers and a string.
 //Name the parameters num1, num2, and operation.
-//const calculate = (num1, num2, operation) => {
-  
-//}
+// const calculate = (num1, num2, operation) => {
+//   if (operation === 'add'){
+//     return num1 += num2;
+//   } 
+//   else if (operation === 'div') {
+//     return num1/num2;
+//   } 
+//   else if (operation === 'exp') {
+//     return num1*=num2;
+//   }
+// }
+
+//console.log(calculate(4, 3, "add");
 //If the function receives the string "add" for the operation parameter, it will return the sum of num1 and num2.
 
 //If the function receives the string "sub" for the operation parameter, it will return num1 minus num2.
+//console.log(calculate(4, 3, "sub"));
 
 //Do the same thing for multiplication "mult", division "div", and exponent "exp" (where num2 is the exponent of num1).
-
-// console.log(calculate(4, 3, "sub"));
-// console.log(calculate(4, 3, "exp"));
+//console.log(calculate(4, 3, "exp"));
 
 
     ////    printCool
 //Write a function printCool that accepts one parameter, name as an argument. The function should print the name and a message saying that that person is cool.
-const printCool = (name) => {
-  console.log("Hello there, " + name + "!");
-}
-printCool("Greg");
+// const printCool = (name) => {
+//   console.log("Hello there, " + name + "!");
+// }
+// printCool("Greg");
 
 
 console.log("calculateCube")
