@@ -117,23 +117,23 @@ console.log("JS")
 
 
 
-console.log("Savings account");        
-// //Write code that will save the sum of all the numbers between 1 - 10 to a variable called bank_account.
-let bankArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let bankAccount = 0;
-for (let i = 0; i < bankArray.length; i++) {
-  bankAccount += bankArray[i];
-}
-//  //Check your work! Your banck_account should have $55 in it.
+// console.log("Savings account");        
+// // //Write code that will save the sum of all the numbers between 1 - 10 to a variable called bank_account.
+// let bankArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let bankAccount = 0;
+// for (let i = 0; i < bankArray.length; i++) {
+//   bankAccount += bankArray[i];
+// }
+// //  //Check your work! Your banck_account should have $55 in it.
  
 
-//You got a bonus! Your pay is now doubled each week. Write code that will save the sum of all the numbers between 1 - 100 multiplied by 2.
-//Check your work! Your bank_account should have $10,100 in it.
-let bankArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let bankAccount = 0;
-for (let i = 0; i <= 100; i++) {
-  bankAccount += (i * 2);
-}console.log(bankAccount)
+// //You got a bonus! Your pay is now doubled each week. Write code that will save the sum of all the numbers between 1 - 100 multiplied by 2.
+// //Check your work! Your bank_account should have $10,100 in it.
+// let bankArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let bankAccount = 0;
+// for (let i = 0; i <= 100; i++) {
+//   bankAccount += (i * 2);
+// }console.log(bankAccount)
 
 console.log("Multiples of 3 and 5")
 //If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
@@ -381,10 +381,12 @@ console.log("isAVowel")
 
 //console.log(isAVowel("a"));
 
-console.log("getTwoLengths")
+     getTwoLengths
 //Write a function getTwoLengths that accepts two parameters (strings). The function should return an array of numbers where each number is the length of the corresponding string.
-
-//console.log(getTwoLengths("Hank", "Hippopopalous"));
+const getTwoLengths = (string1, string2) => {
+    return [string1.length, string2.length];
+}
+console.log(getTwoLengths("Hank", "Hippopopalous"));
 
 console.log("getMultipleLengths")
 //Write a function getMultipleLengths that accepts a single parameter as an argument: an array of strings. The function should return an array of numbers where each number is the length of the corresponding string.
