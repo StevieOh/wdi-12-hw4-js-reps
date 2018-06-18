@@ -146,8 +146,9 @@ console.log("Multiples of 3 and 5")
 
 
 
-console.log("Easy Does it")        
-// Create an array that contains three quotes and store it in a variable called quotes.
+//     ////    Easy Does it       
+// // Create an array that contains three quotes and store it in a variable called quotes.
+// const quotes = ["that's what", "she", "said"]
 
 
 // ////    Random    ////
@@ -265,60 +266,138 @@ console.log("Easy Does it")
 // console.log(kristynsCloset)
 
 // Thom's closet is more complicated. Check out this nested data structure!!
-const thomsCloset = [
-  [
-    // These are Thom's shirts
-    "grey button-up",
-    "dark grey button-up",
-    "light blue button-up",
-    "blue button-up",
-  ],[
-    // These are Thom's pants
-    "grey jeans",
-    "jeans",
-    "PJs"
-  ],[
-    // Thom's accessories
-    "wool mittens",
-    "wool scarf",
-    "raybans"
-  ]
-];
+// const thomsCloset = [
+//   [
+//     // These are Thom's shirts
+//     "grey button-up",
+//     "dark grey button-up",
+//     "light blue button-up",
+//     "blue button-up",
+//   ],[
+//     // These are Thom's pants
+//     "grey jeans",
+//     "jeans",
+//     "PJs"
+//   ],[
+//     // Thom's accessories
+//     "wool mittens",
+//     "wool scarf",
+//     "raybans"
+//   ]
+// ];
 
 
-// // Put together an outfit for Thom! Using bracket notation, access the first element in Thom's shirts array.
-console.log(thomsCloset[0][2])
+// // // Put together an outfit for Thom! Using bracket notation, access the first element in Thom's shirts array.
+// console.log(thomsCloset[0][2])
 
 
-// // In the same way, access one item from Thom's pants array.
-console.log(thomsCloset[1][1])
+// // // In the same way, access one item from Thom's pants array.
+// console.log(thomsCloset[1][1])
 
-// // Access one item from Thom's accessories array.
-console.log(thomsCloset[2][2])
+// // // Access one item from Thom's accessories array.
+// console.log(thomsCloset[2][2])
 
-// Log a sentence about what Thom's wearing. Example: "Thom is looking fierce in a grey button-up, jeans and wool scarf!"
-console.log("Thom is looking fierce in a " + thomsCloset[0][2] + ", " +thomsCloset[1][1] + " and " + thomsCloset[2][2]+ "!")
+// // Log a sentence about what Thom's wearing. Example: "Thom is looking fierce in a grey button-up, jeans and wool scarf!"
+// console.log("Thom is looking fierce in a " + thomsCloset[0][2] + ", " +thomsCloset[1][1] + " and " + thomsCloset[2][2]+ "!")
 
-// Get more specific about what kind of PJs Thom's wearing this winter. Modify the name of his PJ pants to Footie Pajamas.
-thomsCloset.splice(2, 1, "Footie Pajamas")
-thomsCloset[1][2] = "Footie Pajamas"
-console.log(thomsCloset)
-
-
+// // Get more specific about what kind of PJs Thom's wearing this winter. Modify the name of his PJ pants to Footie Pajamas.
+// thomsCloset.splice(2, 1, "Footie Pajamas")
+// thomsCloset[1][2] = "Footie Pajamas"
+// console.log(thomsCloset)
 
 
-    // printGreeting
-//Write a function called printGreeting with a parameter name that returns a greeting with the argument interpolated into the greeting.
-// const printGreeting = () => {
-  
+
+
+//     //printGreeting
+// // //Write a function called printGreeting with a parameter name that returns a greeting with the argument interpolated into the greeting.
+//  const printGreeting = (name) => {
+//   console.log("Hello there, " + name + "!");
 // }
 
-//console.log(printGreeting("Slimer"));
-//=> Hello there, Slimer!
+// printGreeting("Slimer");
 
 
+    ////    reverseWordOrder
+//Write a function reverseWordOrder that accepts a single argument, a string. The function should return a string with the order of the words reversed. Don't worry about punctuation.
+
+// const reverseWordOrder = (str) => {  
+//   //split string of words in to an array
+//   const array = str.split(" ");
+//   console.log(array);
+//   //reverse the string
+//   const revArr = array.reverse();
+//   console.log(revArr);
+//   console.log(revArr.join(" "));
+// }
+
+//   reverseWordOrder("Ishmael me Call");
+//   reverseWordOrder("I use Lâncome on my comb");
+
+    console.log("calculate")//   calculate
+//Write a function called calculate.
+//This function should take three arguments, two numbers and a string.
+//Name the parameters num1, num2, and operation.
+//const calculate = (num1, num2, operation) => {
+  
+//}
+//If the function receives the string "add" for the operation parameter, it will return the sum of num1 and num2.
+
+//If the function receives the string "sub" for the operation parameter, it will return num1 minus num2.
+
+//Do the same thing for multiplication "mult", division "div", and exponent "exp" (where num2 is the exponent of num1).
+
+// console.log(calculate(4, 3, "sub"));
+// console.log(calculate(4, 3, "exp"));
 
 
+    ////    printCool
+//Write a function printCool that accepts one parameter, name as an argument. The function should print the name and a message saying that that person is cool.
+const printCool = (name) => {
+  console.log("Hello there, " + name + "!");
+}
+printCool("Greg");
+
+
+console.log("calculateCube")
+//Write a function calculateCube that takes a single number and prints the volume of a cube made from that number.
+// const calculateCube = (num) => {
+//   if ( )
+// }
+// use Math.pow(base, 3)
+
+console.log("isAVowel")
+//Write a function isAVowel that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise. The vowel could be upper or lower case.
+
+//console.log(isAVowel("a"));
+
+console.log("getTwoLengths")
+//Write a function getTwoLengths that accepts two parameters (strings). The function should return an array of numbers where each number is the length of the corresponding string.
+
+//console.log(getTwoLengths("Hank", "Hippopopalous"));
+
+console.log("getMultipleLengths")
+//Write a function getMultipleLengths that accepts a single parameter as an argument: an array of strings. The function should return an array of numbers where each number is the length of the corresponding string.
+
+//console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
+
+console.log("maxOfThree")
+//Define a function maxOfThree that takes three numbers as arguments and returns the largest of them. If all numbers are the same, it doesn't matter which one is returned. If the two largest numbers are the same, one of them should be returned.
+
+//console.log(maxOfThree(6, 9, 1));
+
+console.log("printLongestWord")
+//Write a function printLongestWord that accepts a single argument, an array of strings. The method should return the longest word in the array. In case of a tie, the method should return the word that appears first in the array.
+
+//console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
+
+console.log("transmogrify")
+// Write a Javascript function called transmogrify. This function should accept three arguments, which you can assume will be numbers. Your function should return the "transmogrified" result.
+
+//The transmogrified result of three numbers is the product of the first two numbers, raised to the power of the third number.
+
+//For example, the transmogrified result of 5, 3, and 2 is (5 times 3) to the power of 2 is 225.
+
+//console.log(transmogrify(5, 3, 2));
 
 
 
