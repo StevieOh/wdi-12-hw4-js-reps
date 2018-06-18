@@ -340,15 +340,7 @@ console.log("Multiples of 3 and 5")
 //This function should take three arguments, two numbers and a string.
 //Name the parameters num1, num2, and operation.
 // const calculate = (num1, num2, operation) => {
-//   if (operation === 'add'){
-//     return num1 += num2;
-//   } 
-//   else if (operation === 'div') {
-//     return num1/num2;
-//   } 
-//   else if (operation === 'exp') {
-//     return num1*=num2;
-//   }
+// 
 // }
 
 //console.log(calculate(4, 3, "add");
@@ -381,15 +373,20 @@ console.log("isAVowel")
 
 //console.log(isAVowel("a"));
 
-     getTwoLengths
-//Write a function getTwoLengths that accepts two parameters (strings). The function should return an array of numbers where each number is the length of the corresponding string.
-const getTwoLengths = (string1, string2) => {
-    return [string1.length, string2.length];
-}
-console.log(getTwoLengths("Hank", "Hippopopalous"));
+    //  //   getTwoLengths
+// //Write a function getTwoLengths that accepts two parameters (strings). The function should return an array of numbers where each number is the length of the corresponding string.
+// const getTwoLengths = (string1, string2) => {
+//     return [string1.length, string2.length];
+// }
+// console.log(getTwoLengths("Hank", "Hippopopalous"));
 
 console.log("getMultipleLengths")
 //Write a function getMultipleLengths that accepts a single parameter as an argument: an array of strings. The function should return an array of numbers where each number is the length of the corresponding string.
+
+// let getMultipleLengths = ["hello", "what", "is", "up", "dude"]
+//  let lengths = getMultipleLengths.map(function(word) {
+//   return word.length;
+// });
 
 //console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
 
@@ -400,8 +397,18 @@ console.log("maxOfThree")
 
 console.log("printLongestWord")
 //Write a function printLongestWord that accepts a single argument, an array of strings. The method should return the longest word in the array. In case of a tie, the method should return the word that appears first in the array.
+const printLongestWord = ["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"];
+function findLongestWord(str) {
+   var longest = 0;
 
-//console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
+  for(var i = 0; i < str.length; i++) {
+     if(str[i].length >= longest) {
+       longest = str[i].length;
+        } 
+     }
+  return longest;
+}
+findLongestWord();
 
 console.log("transmogrify")
 // Write a Javascript function called transmogrify. This function should accept three arguments, which you can assume will be numbers. Your function should return the "transmogrified" result.
